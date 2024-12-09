@@ -5,7 +5,7 @@ window.onload = function() {
     image.src = 'images/'+i+'.jpg'; 
     arr.push(image);
   }
-  let final = new Date(2024, 0, 1, 0, 0);
+  let final = new Date(2025, 0, 1, 0, 0);
   function getRandomImage() {
     let index = Math.floor(Math.random() * 6);
     return arr[index].src;
